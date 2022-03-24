@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
-  <Identity Name="30492SamuelGomes.SchismTracker" Version="1.2022.1.25" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64" />
+  <Identity Name="30492SamuelGomes.SchismTracker" Version="2022.1.25.0" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Schism Tracker</DisplayName>
     <PublisherDisplayName>Samuel Gomes</PublisherDisplayName>
