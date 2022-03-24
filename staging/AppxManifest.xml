@@ -5,7 +5,7 @@
     <DisplayName>Schism Tracker</DisplayName>
     <PublisherDisplayName>Samuel Gomes</PublisherDisplayName>
     <Description>Schism Tracker is a free and open-source reimplementation of Impulse Tracker, a program used to create high quality music without the requirements of specialized, expensive equipment, and with a unique 'finger feel' that is difficult to replicate in part. The player is based on a highly modified version of the ModPlug engine, with a number of bugfixes and changes to improve IT playback.</Description>
-    <Logo>Assets\OpenMPT50x50.png</Logo>
+    <Logo>Assets\schismtracker50x50.png</Logo>
   </Properties>
   <Resources>
     <Resource Language="en-us" />
@@ -21,71 +21,26 @@
       <uap:VisualElements DisplayName="Schism Tracker" Description="Schism Tracker is a free and open-source reimplementation of Impulse Tracker, a program used to create high quality music without the requirements of specialized, expensive equipment, and with a unique 'finger feel' that is difficult to replicate in part. The player is based on a highly modified version of the ModPlug engine, with a number of bugfixes and changes to improve IT playback." Square150x150Logo="Assets\schismtracker150x150.png" Square44x44Logo="Assets\schismtracker44x44.png" BackgroundColor="transparent" />
       <Extensions>
         <uap:Extension Category="windows.fileTypeAssociation" EntryPoint="Windows.FullTrustApplication" Executable="schismtracker.exe">
-          <uap:FileTypeAssociation Name=".mo3">
+          <uap:FileTypeAssociation Name=".669">
             <uap:DisplayName>Tracker Music File</uap:DisplayName>
             <uap:Logo>Assets\ext.png</uap:Logo>
             <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
             <uap:SupportedFileTypes>
-              <uap:FileType>.mo3</uap:FileType>
               <uap:FileType>.669</uap:FileType>
               <uap:FileType>.amf</uap:FileType>
-              <uap:FileType>.ams</uap:FileType>
-              <uap:FileType>.c67</uap:FileType>
-              <uap:FileType>.dbm</uap:FileType>
-              <uap:FileType>.digi</uap:FileType>
               <uap:FileType>.dmf</uap:FileType>
-              <uap:FileType>.dsm</uap:FileType>
-              <uap:FileType>.dtm</uap:FileType>
               <uap:FileType>.far</uap:FileType>
-              <uap:FileType>.gdm</uap:FileType>
-              <uap:FileType>.ice</uap:FileType>
-              <uap:FileType>.st26</uap:FileType>
               <uap:FileType>.imf</uap:FileType>
-              <uap:FileType>.itp</uap:FileType>
-              <uap:FileType>.j2b</uap:FileType>
-              <uap:FileType>.m15</uap:FileType>
-              <uap:FileType>.stk</uap:FileType>
               <uap:FileType>.mdl</uap:FileType>
               <uap:FileType>.med</uap:FileType>
               <uap:FileType>.mt2</uap:FileType>
               <uap:FileType>.mtm</uap:FileType>
+              <uap:FileType>.mus</uap:FileType>
               <uap:FileType>.okt</uap:FileType>
-              <uap:FileType>.psm</uap:FileType>
-              <uap:FileType>.plm</uap:FileType>
-              <uap:FileType>.pt36</uap:FileType>
               <uap:FileType>.ptm</uap:FileType>
               <uap:FileType>.sfx</uap:FileType>
-              <uap:FileType>.sfx2</uap:FileType>
-              <uap:FileType>.mms</uap:FileType>
               <uap:FileType>.stm</uap:FileType>
-              <uap:FileType>.stp</uap:FileType>
               <uap:FileType>.ult</uap:FileType>
-              <uap:FileType>.umx</uap:FileType>
-              <uap:FileType>.wow</uap:FileType>
-              <uap:FileType>.fst</uap:FileType>
-              <uap:FileType>.nst</uap:FileType>
-            </uap:SupportedFileTypes>
-          </uap:FileTypeAssociation>
-        </uap:Extension>
-        <uap:Extension Category="windows.fileTypeAssociation" EntryPoint="Windows.FullTrustApplication" Executable="schismtracker.exe">
-          <uap:FileTypeAssociation Name=".mptm">
-            <uap:DisplayName>OpenMPT File</uap:DisplayName>
-            <uap:Logo>Assets\mptm.png</uap:Logo>
-            <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
-            <uap:SupportedFileTypes>
-              <uap:FileType>.mptm</uap:FileType>
-              <uap:FileType>.mptmz</uap:FileType>
-            </uap:SupportedFileTypes>
-          </uap:FileTypeAssociation>
-        </uap:Extension>
-        <uap:Extension Category="windows.fileTypeAssociation" EntryPoint="Windows.FullTrustApplication" Executable="schismtracker.exe">
-          <uap:FileTypeAssociation Name=".rmi">
-            <uap:DisplayName>RIFF MIDI File</uap:DisplayName>
-            <uap:Logo>Assets\rmi.png</uap:Logo>
-            <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
-            <uap:SupportedFileTypes>
-              <uap:FileType>.rmi</uap:FileType>
-              <uap:FileType>.rmid</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>
@@ -97,9 +52,6 @@
             <uap:SupportedFileTypes>
               <uap:FileType>.mid</uap:FileType>
               <uap:FileType>.midi</uap:FileType>
-              <uap:FileType>.mff</uap:FileType>
-              <uap:FileType>.smf</uap:FileType>
-              <uap:FileType>.kar</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>
@@ -110,7 +62,6 @@
             <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
             <uap:SupportedFileTypes>
               <uap:FileType>.it</uap:FileType>
-              <uap:FileType>.itz</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>
@@ -121,8 +72,6 @@
             <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
             <uap:SupportedFileTypes>
               <uap:FileType>.mod</uap:FileType>
-              <uap:FileType>.mdz</uap:FileType>
-              <uap:FileType>.mdr</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>
@@ -133,7 +82,6 @@
             <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
             <uap:SupportedFileTypes>
               <uap:FileType>.s3m</uap:FileType>
-              <uap:FileType>.s3z</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>
@@ -144,8 +92,6 @@
             <uap:EditFlags AlwaysUnsafe="false" OpenIsSafe="false" />
             <uap:SupportedFileTypes>
               <uap:FileType>.xm</uap:FileType>
-              <uap:FileType>.xmz</uap:FileType>
-              <uap:FileType>.oxm</uap:FileType>
             </uap:SupportedFileTypes>
           </uap:FileTypeAssociation>
         </uap:Extension>

@@ -1,4 +1,4 @@
-# Schism-Tracker-MSIX
+# Schism Tracker MSIX Package
 
 This is the [MSIX package](https://www.microsoft.com/store/apps/9N6C086Q3ZDG) source for [Schism Tracker](https://github.com/schismtracker/schismtracker).
 
