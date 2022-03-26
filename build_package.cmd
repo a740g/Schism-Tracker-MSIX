@@ -1,3 +1,10 @@
+@rem NT command script to automate building MSIX packages for the Microsoft Store
+@rem Copyright (c) 2021-2022, Samuel Gomes
+@rem
+@rem Place the file one level above the source directory and name the score directory as "staging"
+@rem The "staging" directory must contain a proper AppManifest.xml, executables and other assets
+@rem Visual Studio / Windows SDK must be installed. This was tested with Visual Studio 2019 & 2022
+@rem
 @echo off
 
 rem Enable cmd extensions and exit if not present
