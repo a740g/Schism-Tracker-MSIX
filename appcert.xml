@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-IN" OVERALL_RESULT="WARNING" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.SchismTracker" APP_VERSION="2022.1.25.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="24-03-2022 09:31:14 PM" ID="5f3c1dd7a75c6bde71a0ce2de1ff3afa">
+<REPORT xml:lang="en-IN" OVERALL_RESULT="WARNING" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.SchismTracker" APP_VERSION="2022.1.25.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="27-03-2022 05:41:21 AM" ID="68e729e32416e9df046262b1892ff055">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus.">
-      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.26ms" OPTIONAL="TRUE">
+      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.22ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application.">
-      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="TRUE">
+      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.85ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package does not satisfy Store compliance rules.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="TRUE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.99ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.42ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.46ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.95ms" OPTIONAL="FALSE">
+      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.94ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -41,21 +41,21 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.10ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.14ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.17ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.69ms" OPTIONAL="TRUE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.68ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.59ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.61ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -67,13 +67,13 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.93ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.18ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.26ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -81,7 +81,7 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.71ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -89,7 +89,7 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.11ms" OPTIONAL="TRUE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.03ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -99,21 +99,21 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.14ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:01s.41ms" OPTIONAL="TRUE">
+      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:01s.42ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.18ms" OPTIONAL="TRUE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.20ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="High-DPI support" RATIONALE="The application needs to set DPI-aware to make the UI look consistently good across a wide variety of high-DPI display settings.">
-      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.41ms" OPTIONAL="FALSE">
+      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.42ms" OPTIONAL="FALSE">
         <MESSAGES>
           <MESSAGE TEXT="File schismtracker.exe neither has PerMonitorV2 manifested in the manifest nor calls into DPI Awareness APIs for ex: user32!SetProcessDpiAwarenessContext or user32!SetThreadDpiAwarenessContext." />
           <MESSAGE TEXT="The app 30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y is not DPI Aware." />
@@ -124,7 +124,7 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="30492SamuelGomes.SchismTracker" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="2022.1.25.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_43DC\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y" Id="0000a6f3baa792fb30531e62793ceff92eb500000940" HiddenArp="false">
+      <Program Name="30492SamuelGomes.SchismTracker" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="2022.1.25.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_2B04\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y" Id="0000a6f3baa792fb30531e62793ceff92eb500000940" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
             <PackageManifest PackageFullName="30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y">
@@ -238,16 +238,16 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="00007430ef193469a594074425c028a8a6d93afb9eab" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-950046559" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_43dc\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\resources.pri" />
-            <File Id="0000aee622d235de77f235e801c688e70e512f013eee" Name="schismtracker.exe" ProductName="schism tracker" CompanyName="storlek" ProductVersion="" VerLanguage="1033" SwitchBackContext="0" FileVersion="" Size="1941504" SizeOfImage="1941504" PeHeaderHash="010192119fe006a49188b25fb5869279cab1ce7b39a6" PeChecksum="1254161" CrcChecksum="-950562964" BinProductVersion="" BinFileVersion="0.2022.1.25" FileDescription="schism tracker" LegalCopyright="copyright © 2003-2012 storlek" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_43dc\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\schismtracker.exe" />
-            <File Id="00001c53325dae95f9986e3ac4f7f645ece5d00309fd" Name="SDL.dll" ProductName="simple directmedia layer" CompanyName="" ProductVersion="1, 2, 14, 0" VerLanguage="1033" SwitchBackContext="0" FileVersion="1, 2, 14, 0" Size="471040" SizeOfImage="471040" PeHeaderHash="010151df055225e836da8ed818d8cfa7933bca787bdb" PeChecksum="414504" CrcChecksum="33046124" BinProductVersion="1, 2, 14, 0" BinFileVersion="1.2.14.0" FileDescription="sdl" LegalCopyright="copyright © 2009 sam lantinga" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_43dc\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\sdl.dll" />
+            <File Id="00007430ef193469a594074425c028a8a6d93afb9eab" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-950046559" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\resources.pri" />
+            <File Id="0000aee622d235de77f235e801c688e70e512f013eee" Name="schismtracker.exe" ProductName="schism tracker" CompanyName="storlek" ProductVersion="" VerLanguage="1033" SwitchBackContext="0" FileVersion="" Size="1941504" SizeOfImage="1941504" PeHeaderHash="010192119fe006a49188b25fb5869279cab1ce7b39a6" PeChecksum="1254161" CrcChecksum="-950562964" BinProductVersion="" BinFileVersion="0.2022.1.25" FileDescription="schism tracker" LegalCopyright="copyright © 2003-2012 storlek" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\schismtracker.exe" />
+            <File Id="00001c53325dae95f9986e3ac4f7f645ece5d00309fd" Name="SDL.dll" ProductName="simple directmedia layer" CompanyName="" ProductVersion="1, 2, 14, 0" VerLanguage="1033" SwitchBackContext="0" FileVersion="1, 2, 14, 0" Size="471040" SizeOfImage="471040" PeHeaderHash="010151df055225e836da8ed818d8cfa7933bca787bdb" PeChecksum="414504" CrcChecksum="33046124" BinProductVersion="1, 2, 14, 0" BinFileVersion="1.2.14.0" FileDescription="sdl" LegalCopyright="copyright © 2009 sam lantinga" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\sdl.dll" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_43DC\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y">
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_2B04\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y">
       <AitFile ErrorCode="0" Name="SDL.dll" Id="00001c53325dae95f9986e3ac4f7f645ece5d00309fd">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
