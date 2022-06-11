@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-IN" OVERALL_RESULT="WARNING" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.SchismTracker" APP_VERSION="2022.1.25.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="27-03-2022 05:41:21 AM" ID="68e729e32416e9df046262b1892ff055">
+<REPORT xml:lang="en-IN" OVERALL_RESULT="WARNING" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.SchismTracker" APP_VERSION="2022.5.6.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="11-06-2022 06:40:44 AM" ID="3a2ccea350fc68fd43d636c04e449011">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus.">
-      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.22ms" OPTIONAL="TRUE">
+      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.27ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application.">
-      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.85ms" OPTIONAL="TRUE">
+      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -19,43 +19,43 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.46ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.45ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.90ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="TRUE">
+      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.94ms" OPTIONAL="FALSE">
+      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.97ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="90" NAME="Resource Packages" DESCRIPTION="Check if any resource packages contain PE files." EXECUTIONTIME="00h:00m:00s.94ms" OPTIONAL="FALSE">
+      <TEST INDEX="90" NAME="Resource Packages" DESCRIPTION="Check if any resource packages contain PE files." EXECUTIONTIME="00h:00m:00s.93ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.17ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.19ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.68ms" OPTIONAL="TRUE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.67ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.61ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.58ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -67,13 +67,13 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.97ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.26ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:07s.84ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -81,7 +81,7 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.71ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -89,34 +89,34 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.03ms" OPTIONAL="TRUE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:07s.87ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.71ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.14ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.09ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:01s.42ms" OPTIONAL="TRUE">
+      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:01s.43ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.20ms" OPTIONAL="TRUE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.19ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="High-DPI support" RATIONALE="The application needs to set DPI-aware to make the UI look consistently good across a wide variety of high-DPI display settings.">
-      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.42ms" OPTIONAL="FALSE">
+      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.43ms" OPTIONAL="FALSE">
         <MESSAGES>
           <MESSAGE TEXT="File schismtracker.exe neither has PerMonitorV2 manifested in the manifest nor calls into DPI Awareness APIs for ex: user32!SetProcessDpiAwarenessContext or user32!SetThreadDpiAwarenessContext." />
-          <MESSAGE TEXT="The app 30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y is not DPI Aware." />
+          <MESSAGE TEXT="The app 30492SamuelGomes.SchismTracker_2022.5.6.0_x64__x6kje0v4c1m1y is not DPI Aware." />
         </MESSAGES>
         <RESULT><![CDATA[WARNING]]></RESULT>
       </TEST>
@@ -124,12 +124,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="30492SamuelGomes.SchismTracker" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="2022.1.25.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_2B04\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y" Id="0000a6f3baa792fb30531e62793ceff92eb500000940" HiddenArp="false">
+      <Program Name="30492SamuelGomes.SchismTracker" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="2022.5.6.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_424C\30492SamuelGomes.SchismTracker_2022.5.6.0_x64__x6kje0v4c1m1y" Id="0000ae4398abd5b0f03e9bea0540be49e5fe00000940" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y">
+            <PackageManifest PackageFullName="30492SamuelGomes.SchismTracker_2022.5.6.0_x64__x6kje0v4c1m1y">
               <Package>
-                <Identity Name="30492SamuelGomes.SchismTracker" Version="2022.1.25.0" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64"></Identity>
+                <Identity Name="30492SamuelGomes.SchismTracker" Version="2022.5.6.0" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64"></Identity>
                 <Properties>
                   <DisplayName>Schism Tracker</DisplayName>
                   <PublisherDisplayName>Samuel Gomes</PublisherDisplayName>
@@ -238,17 +238,17 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="00007430ef193469a594074425c028a8a6d93afb9eab" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-950046559" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\resources.pri" />
-            <File Id="0000aee622d235de77f235e801c688e70e512f013eee" Name="schismtracker.exe" ProductName="schism tracker" CompanyName="storlek" ProductVersion="" VerLanguage="1033" SwitchBackContext="0" FileVersion="" Size="1941504" SizeOfImage="1941504" PeHeaderHash="010192119fe006a49188b25fb5869279cab1ce7b39a6" PeChecksum="1254161" CrcChecksum="-950562964" BinProductVersion="" BinFileVersion="0.2022.1.25" FileDescription="schism tracker" LegalCopyright="copyright © 2003-2012 storlek" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\schismtracker.exe" />
-            <File Id="00001c53325dae95f9986e3ac4f7f645ece5d00309fd" Name="SDL.dll" ProductName="simple directmedia layer" CompanyName="" ProductVersion="1, 2, 14, 0" VerLanguage="1033" SwitchBackContext="0" FileVersion="1, 2, 14, 0" Size="471040" SizeOfImage="471040" PeHeaderHash="010151df055225e836da8ed818d8cfa7933bca787bdb" PeChecksum="414504" CrcChecksum="33046124" BinProductVersion="1, 2, 14, 0" BinFileVersion="1.2.14.0" FileDescription="sdl" LegalCopyright="copyright © 2009 sam lantinga" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2b04\30492samuelgomes.schismtracker_2022.1.25.0_x64__x6kje0v4c1m1y\sdl.dll" />
+            <File Id="00007430ef193469a594074425c028a8a6d93afb9eab" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-950046559" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_424c\30492samuelgomes.schismtracker_2022.5.6.0_x64__x6kje0v4c1m1y\resources.pri" />
+            <File Id="0000fc6d44d5ab9757fb6fb4334fe432022ab5b55951" Name="schismtracker.exe" ProductName="schism tracker" CompanyName="storlek" ProductVersion="" VerLanguage="1033" SwitchBackContext="0" FileVersion="" Size="1941504" SizeOfImage="1941504" PeHeaderHash="010143201c49e6d44484d348a8438e7121c9bc1111d2" PeChecksum="1263134" CrcChecksum="-1547476311" BinProductVersion="" BinFileVersion="0.2022.5.6" FileDescription="schism tracker" LegalCopyright="copyright © 2003-2012 storlek" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_424c\30492samuelgomes.schismtracker_2022.5.6.0_x64__x6kje0v4c1m1y\schismtracker.exe" />
+            <File Id="0000c91d0bf49107be93186eb95b682231ecf31b76de" Name="SDL.dll" ProductName="simple directmedia layer" CompanyName="" ProductVersion="1, 2, 16, 0" VerLanguage="1033" SwitchBackContext="0" FileVersion="1, 2, 16, 0" Size="487424" SizeOfImage="487424" PeHeaderHash="0101ecda7b49495ae3deefa38a43440d324cd9908101" PeChecksum="436218" CrcChecksum="980099562" BinProductVersion="1, 2, 16, 0" BinFileVersion="1.2.16.0" FileDescription="sdl" LegalCopyright="copyright © 2019 sam lantinga" LinkDate="01/01/1970 00:00:00" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_424c\30492samuelgomes.schismtracker_2022.5.6.0_x64__x6kje0v4c1m1y\sdl.dll" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_2B04\30492SamuelGomes.SchismTracker_2022.1.25.0_x64__x6kje0v4c1m1y">
-      <AitFile ErrorCode="0" Name="SDL.dll" Id="00001c53325dae95f9986e3ac4f7f645ece5d00309fd">
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_424C\30492SamuelGomes.SchismTracker_2022.5.6.0_x64__x6kje0v4c1m1y">
+      <AitFile ErrorCode="0" Name="SDL.dll" Id="0000c91d0bf49107be93186eb95b682231ecf31b76de">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000010}" />
@@ -357,6 +357,7 @@
           <AitFeature Name="{000e0000-0000-0000-c000-000000000046}" />
           <AitFeature Name="{000e0020-0000-0000-c000-000000000046}" />
           <AitFeature Name="{00990df4-0dbb-4872-833e-6d303e80aeb6}" />
+          <AitFeature Name="{00cddea8-939b-4b83-a340-a685226666cc}" />
           <AitFeature Name="{00e48f7b-d2c8-49e8-a86c-022dee53431f}" />
           <AitFeature Name="{0194c220-a303-11d0-9c4f-00a0c905425e}" />
           <AitFeature Name="{01e44665-24ac-101b-84ed-08002b2ec713}" />
@@ -365,10 +366,13 @@
           <AitFeature Name="{035f3ab4-482e-4e50-b41f-8a7f8bd8960b}" />
           <AitFeature Name="{037e866e-f56d-4357-a8af-9dabbe6e250e}" />
           <AitFeature Name="{03823efb-8d8f-4e1c-9aa2-f64bb2cbfdf1}" />
+          <AitFeature Name="{05008617-fbfd-4051-a790-144884b4f6a9}" />
           <AitFeature Name="{05eec05d-8f7d-4362-b999-d1baf357c704}" />
           <AitFeature Name="{06675a80-3b9b-11d2-b92f-00609797ea5b}" />
+          <AitFeature Name="{068346e8-aaec-4b84-add7-137f513f77a1}" />
           <AitFeature Name="{0803425a-57f5-4dd6-9465-a87570834a08}" />
           <AitFeature Name="{08f2d8c9-37c2-11d2-b9f9-0000f875ac12}" />
+          <AitFeature Name="{0aa1ae0a-fa0e-4b84-8644-e05ff8e5acb5}" />
           <AitFeature Name="{0ab1c530-4745-11d1-a7a1-0000f803abfc}" />
           <AitFeature Name="{0ab1c531-4745-11d1-a7a1-0000f803abfc}" />
           <AitFeature Name="{0b2b8630-ad35-11d0-8ea6-00609797ea5b}" />
@@ -381,6 +385,7 @@
           <AitFeature Name="{0f1d6860-88d9-11cf-9c4e-00a0c905425e}" />
           <AitFeature Name="{1008c4a0-7613-11cf-9af1-0020af6e72f4}" />
           <AitFeature Name="{10ec4d5b-975a-4689-b9e4-d0aac30fe333}" />
+          <AitFeature Name="{119e7452-de9e-40fe-8806-88f90c12b441}" />
           <AitFeature Name="{11ab3ec0-25ec-11d1-a4d8-00c04fc28aca}" />
           <AitFeature Name="{11c81bc2-121e-4ed5-b9c4-b430bd54f2c0}" />
           <AitFeature Name="{11ec5a5f-51dc-4945-ab34-6e8c21300ea5}" />
@@ -389,9 +394,11 @@
           <AitFeature Name="{133efe41-32dc-11d0-9cfb-00a0c90a43cb}" />
           <AitFeature Name="{15e65ec0-3b9c-11d2-b92f-00609797ea5b}" />
           <AitFeature Name="{1841e5c8-16b0-489b-bcc8-44cfb0d5deae}" />
+          <AitFeature Name="{191cfac3-a341-470d-b26e-a864f428319c}" />
           <AitFeature Name="{1b36bb7b-09b7-410a-b445-7d1430d7b33f}" />
           <AitFeature Name="{1b940b17-2642-4d1f-ab1f-b99bad0c395f}" />
           <AitFeature Name="{1bb4af80-a303-11d0-9c4f-00a0c905425e}" />
+          <AitFeature Name="{1bc6ea02-ef36-464f-bf0c-21ca39e5168a}" />
           <AitFeature Name="{1bf63c95-2650-405d-99c1-3636bd1da0a1}" />
           <AitFeature Name="{1c2056cc-5ef4-101b-8bc8-00aa003e3b29}" />
           <AitFeature Name="{1c733a30-2a1c-11ce-ade5-00aa0044773d}" />
@@ -408,11 +415,13 @@
           <AitFeature Name="{2411e7e1-12ac-4ccf-bd14-9798e8534dc0}" />
           <AitFeature Name="{24f416e6-1f67-4aa7-b88e-d33f6f3128a1}" />
           <AitFeature Name="{2518526c-e789-4111-a7b9-47ef328d13e6}" />
+          <AitFeature Name="{25483823-cd46-4c7d-86ca-47aa95b837bd}" />
           <AitFeature Name="{25b15600-0115-11d0-bf0d-00aa00b8dfd2}" />
           <AitFeature Name="{25e609e0-b259-11cf-bfc7-444553540000}" />
           <AitFeature Name="{25e609e1-b259-11cf-bfc7-444553540000}" />
           <AitFeature Name="{25e609e4-b259-11cf-bfc7-444553540000}" />
           <AitFeature Name="{25e609e5-b259-11cf-bfc7-444553540000}" />
+          <AitFeature Name="{2633066b-4514-4c7a-8fd8-12ea98059d18}" />
           <AitFeature Name="{26c66a70-b367-11cf-a024-00aa006157ac}" />
           <AitFeature Name="{279afa83-4981-11ce-a521-0020af0be560}" />
           <AitFeature Name="{279afa84-4981-11ce-a521-0020af0be560}" />
@@ -433,6 +442,7 @@
           <AitFeature Name="{2db72491-652c-11d1-a7a8-0000f803abfc}" />
           <AitFeature Name="{2fe8f810-b2a5-11d0-a787-0000f803abfc}" />
           <AitFeature Name="{3015a308-dcbd-47aa-a747-192486d14d4a}" />
+          <AitFeature Name="{30961379-4609-4a41-998e-54fe567ee0c1}" />
           <AitFeature Name="{30f3d47a-6447-11d1-8e3c-00c04fb9386d}" />
           <AitFeature Name="{310d36a0-d2e7-4c0a-aa04-6a9d23b8886a}" />
           <AitFeature Name="{3127ca40-446e-11ce-8135-00aa004bb851}" />
@@ -450,8 +460,10 @@
           <AitFeature Name="{3b301d64-d678-4289-8897-22f8928b72f3}" />
           <AitFeature Name="{3bba0080-2421-11cf-a31a-00aa00b93356}" />
           <AitFeature Name="{3c305196-50db-11d3-9cfe-00c04fd930c5}" />
+          <AitFeature Name="{3c8d99d1-4fbf-4181-a82c-af66bf7bd24e}" />
           <AitFeature Name="{3c9c5b51-995d-48d1-9b8d-fa5caeded65c}" />
           <AitFeature Name="{3d3e0379-f9de-4d58-bb6c-18d62992f1a6}" />
+          <AitFeature Name="{3d585d5a-bd4a-489e-b1f4-3dbcb6452ffb}" />
           <AitFeature Name="{3d82ab40-62da-11cf-ab39-0020af71e433}" />
           <AitFeature Name="{3d82ab41-62da-11cf-ab39-0020af71e433}" />
           <AitFeature Name="{3d82ab42-62da-11cf-ab39-0020af71e433}" />
@@ -462,6 +474,7 @@
           <AitFeature Name="{3e02c918-cc79-4985-b622-2d92ad701623}" />
           <AitFeature Name="{3ee5b968-2aca-4c34-8bb5-7e0c3d19b750}" />
           <AitFeature Name="{4108fa85-3586-11d3-8bd7-00600893b1b6}" />
+          <AitFeature Name="{41e7d1f2-a591-4f7b-a2e5-fa9c843e1c12}" />
           <AitFeature Name="{4221b2e1-8955-46c0-bd5b-de9897565de7}" />
           <AitFeature Name="{4417c142-33ad-11cf-816f-0000c020156e}" />
           <AitFeature Name="{4417c144-33ad-11cf-816f-0000c020156e}" />
@@ -493,6 +506,7 @@
           <AitFeature Name="{50666c24-b82f-4eed-a172-5b6e7e8522e0}" />
           <AitFeature Name="{50936643-13e9-11d1-89aa-00a0c9054129}" />
           <AitFeature Name="{509aaeda-5639-11d1-b6a1-0000f8757bf9}" />
+          <AitFeature Name="{50c83a1c-e072-4c48-87b0-3630fa36a6d0}" />
           <AitFeature Name="{5102dacd-241b-11d3-aea7-006097b01411}" />
           <AitFeature Name="{5102dace-241b-11d3-aea7-006097b01411}" />
           <AitFeature Name="{5102dacf-241b-11d3-aea7-006097b01411}" />
@@ -532,12 +546,15 @@
           <AitFeature Name="{5944e682-c92e-11cf-bfc7-444553540000}" />
           <AitFeature Name="{5944e683-c92e-11cf-bfc7-444553540000}" />
           <AitFeature Name="{594f31d0-7f19-11d0-b194-00a0c90dc8bf}" />
+          <AitFeature Name="{595e39d1-2724-4663-99b1-da969de28364}" />
           <AitFeature Name="{5cfbeb89-1a06-46e0-b282-e3f9bfa36a54}" />
+          <AitFeature Name="{6007896c-3244-4afd-bf18-a6d3beda5023}" />
           <AitFeature Name="{61f21c45-3c0e-4a74-9cea-67100d9ad5e4}" />
           <AitFeature Name="{62b98c44-1f82-4c67-bcd0-72cf8f217e81}" />
           <AitFeature Name="{6316be88-54cd-4040-ab44-20461bc81f68}" />
           <AitFeature Name="{636b9f10-0c7d-11d1-95b2-0020afdc7421}" />
           <AitFeature Name="{64108800-957d-11d0-89ab-00a0c9054129}" />
+          <AitFeature Name="{645967a4-1392-4310-a798-8053ce3e93fd}" />
           <AitFeature Name="{6530d5c7-07e9-4271-a418-e7ce4bd1e480}" />
           <AitFeature Name="{6536115a-7b2d-11d2-ba18-0000f875ac12}" />
           <AitFeature Name="{6543dbb6-1b48-42f5-ab82-e97ec74326f6}" />
@@ -557,6 +574,7 @@
           <AitFeature Name="{6d5140c1-7436-11ce-8034-00aa006009fa}" />
           <AitFeature Name="{6e6ffa6a-9bae-4613-a51e-91652d508c21}" />
           <AitFeature Name="{6e8c49fb-a371-4770-b440-29086022b741}" />
+          <AitFeature Name="{6ead3d82-25ec-46bc-b7fd-c1f0df8f5037}" />
           <AitFeature Name="{6f15aaf2-d208-4e89-9ab4-489535d34f9c}" />
           <AitFeature Name="{6fc2cae1-bc78-11d2-afa6-00aa0024d8b6}" />
           <AitFeature Name="{70bdde00-c18e-11d0-a9ce-006097942311}" />
@@ -569,10 +587,12 @@
           <AitFeature Name="{743f1dc6-5aba-429f-8bdf-c54d03253dc2}" />
           <AitFeature Name="{745a17a0-74d3-11d0-b6fe-00a0c90f57da}" />
           <AitFeature Name="{75b68faa-347d-4159-8f45-a0640f01cd9a}" />
+          <AitFeature Name="{7632e1f5-ee65-4dca-87fd-84cd75f8838d}" />
           <AitFeature Name="{770aae78-f26f-4dba-a829-253c83d1b387}" />
           <AitFeature Name="{77db970f-6276-48ba-ba28-070143b4392c}" />
           <AitFeature Name="{7857aeac-d31f-49bf-884e-dd46df36780a}" />
           <AitFeature Name="{78ec89a0-e0af-11cf-9c4e-00a0c905425e}" />
+          <AitFeature Name="{790a45f7-0d42-4876-983a-0a55cfe6f4aa}" />
           <AitFeature Name="{794950f2-adfc-458a-905e-10a10b0b503b}" />
           <AitFeature Name="{79ba9e00-b6ee-11d1-86be-00c04fbf8fef}" />
           <AitFeature Name="{79cf2233-7536-4948-9d36-1e4692dc5760}" />
@@ -605,8 +625,10 @@
           <AitFeature Name="{7bf80980-bf32-101a-8bbb-00aa00300cab}" />
           <AitFeature Name="{7bf80981-bf32-101a-8bbb-00aa00300cab}" />
           <AitFeature Name="{7c9dd65e-d3f7-4529-acee-785830acde35}" />
+          <AitFeature Name="{7f108a28-9833-4b3b-b780-2c6b5fa5c062}" />
           <AitFeature Name="{7fd52380-4e07-101b-ae2d-08002b2ec713}" />
           <AitFeature Name="{80849279-c799-4797-8c33-0407a07d9e06}" />
+          <AitFeature Name="{80a07424-ab52-42eb-833c-0c42fd282d98}" />
           <AitFeature Name="{810b5013-e88d-11d2-8bc1-00600893b1b6}" />
           <AitFeature Name="{819074a2-016c-11d3-ae14-006097b01411}" />
           <AitFeature Name="{819074a3-016c-11d3-ae14-006097b01411}" />
@@ -625,6 +647,7 @@
           <AitFeature Name="{89521361-aa8a-11cf-bfc7-444553540000}" />
           <AitFeature Name="{89b2c488-4af4-11d1-8c4c-00c04fd930c5}" />
           <AitFeature Name="{8a667154-f9cb-11d2-ad8a-0060b0575abc}" />
+          <AitFeature Name="{8a6bb301-7e7e-41f4-a8e0-5b32f7f99b18}" />
           <AitFeature Name="{8aeeeac7-05f9-44d4-b591-000b0df1cb95}" />
           <AitFeature Name="{8ba5fb08-5195-40e2-ac58-0d989c3a0102}" />
           <AitFeature Name="{8bd28edf-50db-4e92-a2bd-445488d1ed42}" />
@@ -643,8 +666,10 @@
           <AitFeature Name="{93281503-8cf8-11d0-89ab-00a0c9054129}" />
           <AitFeature Name="{934a9523-a3ca-4bc5-ada0-d6d95d979421}" />
           <AitFeature Name="{947990de-cc28-11d2-a0f7-00805f858fb1}" />
+          <AitFeature Name="{94d99bdb-f1f8-4ab0-b236-7da0170edab1}" />
           <AitFeature Name="{94ea2b94-e9cc-49e0-c0ff-ee64ca8f5b90}" />
           <AitFeature Name="{9537ab04-3250-412e-8213-fcd2f8677933}" />
+          <AitFeature Name="{95b4f95f-d8da-4ca4-9ee6-3b76d5968a10}" />
           <AitFeature Name="{969dc708-5c76-11d1-8d86-0000f804b057}" />
           <AitFeature Name="{995513af-3027-4b9a-956e-c772b3f78006}" />
           <AitFeature Name="{995c1cf5-54ff-11d3-8bda-00600893b1b6}" />
@@ -699,9 +724,11 @@
           <AitFeature Name="{a6bc3ac0-dbaa-11ce-9de3-00aa004bb851}" />
           <AitFeature Name="{a6cd7faa-b0b7-4a2f-9436-8662a65797cb}" />
           <AitFeature Name="{a7aba9c1-8983-11cf-8f20-00805f2cd064}" />
+          <AitFeature Name="{a8be2ac4-199f-4946-b331-79599fb98de7}" />
           <AitFeature Name="{a9d758a0-4617-11cf-95fc-00aa00680db4}" />
           <AitFeature Name="{a9e213f2-9a60-486f-bf3b-53408b6d1cbb}" />
           <AitFeature Name="{aaa74ef9-8ee7-4659-88d9-f8c504da73cc}" />
+          <AitFeature Name="{aba496dd-b617-4cb8-a866-bc44d7eb1fa2}" />
           <AitFeature Name="{ad74143d-903d-4ab7-8066-28d363036d65}" />
           <AitFeature Name="{ae02eedb-c735-4690-8d52-5a8dc20213aa}" />
           <AitFeature Name="{ae897105-00e6-45bf-bb8e-281dd6db8e1b}" />
@@ -752,6 +779,7 @@
           <AitFeature Name="{c03f6a43-65a4-9818-987e-e0b810d2a6f2}" />
           <AitFeature Name="{c0a7157b-d872-4b1d-8073-efc2acd4b1fc}" />
           <AitFeature Name="{c0bfa96c-e089-44fb-8eaf-26f8796190da}" />
+          <AitFeature Name="{c1b6694f-ff09-44a9-b03c-77900a0a1d17}" />
           <AitFeature Name="{c2931aea-2a85-4f20-860f-fba1fd256e18}" />
           <AitFeature Name="{c3457783-a846-47ce-9520-cea6f66e7447}" />
           <AitFeature Name="{c4a54da0-e0af-11cf-9c4e-00a0c905425e}" />
@@ -813,9 +841,11 @@
           <AitFeature Name="{db2f3acc-2f86-11d1-8e04-00c04fb9989a}" />
           <AitFeature Name="{db2f3ace-2f86-11d1-8e04-00c04fb9989a}" />
           <AitFeature Name="{db6f6ddb-ac77-4e88-8253-819df9bbf140}" />
+          <AitFeature Name="{dc7dca35-2196-414d-9f53-617884032a60}" />
           <AitFeature Name="{dc8e63f3-d12b-4952-b47b-5e45026a862d}" />
           <AitFeature Name="{dd13c59c-36fa-4098-a8fb-c7ed39dc8546}" />
           <AitFeature Name="{dd1ec3b3-8391-4fdb-a9e6-347c3caaa7dd}" />
+          <AitFeature Name="{dd95b90b-f05f-4f6a-bd65-25bfb264bd84}" />
           <AitFeature Name="{ddf57cba-9543-46e4-a12b-f207a0fe7fed}" />
           <AitFeature Name="{df0b3d60-548f-101b-8e65-08002b2bd119}" />
           <AitFeature Name="{dfdba067-0b8d-4865-875b-d7b4516cc164}" />
@@ -827,6 +857,7 @@
           <AitFeature Name="{e7e1f7c0-88d2-11d0-9ad0-00a0c9a06e35}" />
           <AitFeature Name="{e982ce48-0b96-440c-bc37-0c869b27a29e}" />
           <AitFeature Name="{ea82e40d-51dc-4f33-93d4-db7c9125ae8c}" />
+          <AitFeature Name="{ea9dbf1a-c88e-4486-854a-98aa0138f30c}" />
           <AitFeature Name="{eb0cb9e8-7996-11d2-872e-0000f8080859}" />
           <AitFeature Name="{eb0d7dfa-1990-4f27-b4d6-edf2eec4a44c}" />
           <AitFeature Name="{eb62d63d-93dd-4318-8ae8-c6f83ad371b8}" />
@@ -1031,7 +1062,11 @@
           <AitFeature Name="msvcrt.dll!_lock" />
           <AitFeature Name="msvcrt.dll!_strdup" />
           <AitFeature Name="msvcrt.dll!_stricmp" />
+          <AitFeature Name="msvcrt.dll!_strnicmp" />
+          <AitFeature Name="msvcrt.dll!_strtoi64" />
+          <AitFeature Name="msvcrt.dll!_strtoui64" />
           <AitFeature Name="msvcrt.dll!_unlock" />
+          <AitFeature Name="msvcrt.dll!_vsnprintf" />
           <AitFeature Name="msvcrt.dll!abort" />
           <AitFeature Name="msvcrt.dll!atof" />
           <AitFeature Name="msvcrt.dll!atoi" />
@@ -1113,7 +1148,7 @@
           <AitFeature Name="ddraw.dll!DirectDrawCreate" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="schismtracker.exe" Id="0000aee622d235de77f235e801c688e70e512f013eee">
+      <AitFile ErrorCode="0" Name="schismtracker.exe" Id="0000fc6d44d5ab9757fb6fb4334fe432022ab5b55951">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000002}" />
